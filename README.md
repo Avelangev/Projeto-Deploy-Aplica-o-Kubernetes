@@ -58,9 +58,7 @@ Cria os namespaces `namespace` (para o frontend/backend) e `db-namespace` (para 
 
 ```bash
 2.Criar Secrets e ConfigMaps Iniciais
-# Database Secrets (Credenciais)
 kubectl apply -f database/secret.yaml
-# Aplica o ConfigMap inicial, **que será corrigido posteriormente**
 kubectl apply -f backend/configmap.yaml
 
 3.Subir o PostgreSQL (StatefulSet + PVC)
