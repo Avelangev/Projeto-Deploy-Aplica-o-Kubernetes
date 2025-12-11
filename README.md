@@ -7,7 +7,7 @@
 
 ---
 
-### 📦 Sistema de Mensagens - Deploy Kubernetes
+### Sistema de Mensagens - Deploy Kubernetes
 
 Este projeto consiste em uma aplicação fullstack que utiliza a arquitetura de microservices, com deploy completo e gerenciado em Kubernetes, garantindo persistência de dados e alta disponibilidade.
 
@@ -23,9 +23,9 @@ Este projeto consiste em uma aplicação fullstack que utiliza a arquitetura de 
 * **Alta Disponibilidade:** 2+ réplicas para as aplicações frontend e backend (Deployments).
 * **Organização:** Uso de Namespaces dedicados.
 
-### 📁 Estrutura do Projeto
+### Estrutura do Projeto
 
-📁 projeto-k8s-deploy/
+ projeto-k8s-deploy/
 ├── backend/                      # Flask API
 │   ├── configmap.yaml            # Variáveis de ambiente do backend
 │   └── deployment.yaml           # Deployment do Flask
@@ -43,7 +43,7 @@ Este projeto consiste em uma aplicação fullstack que utiliza a arquitetura de 
 │
 └── namespace.yaml                # Definição dos namespaces usados
 
-### ✅ Pré-requisitos
+### Pré-requisitos
 
 * cluster Kubernetes
 * `kubectl` configurado e autenticado no cluster
