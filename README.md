@@ -49,7 +49,7 @@ Este projeto consiste em uma aplicação fullstack que utiliza a arquitetura de 
 * `kubectl` configurado e autenticado no cluster
 * **Ingress NGINX habilitado** (Se estiver usando Minikube: `minikube addons enable ingress`)
 
-### 🚀 Etapas de Deploy
+### Etapas de Deploy
 
 **Atenção:** Os comandos devem ser executados a partir do diretório raiz (`projeto-k8s-deploy/`).
 
